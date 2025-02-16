@@ -6,6 +6,5 @@ export const MovieList = ({ movies }) => (
     {movies.map(movie => (
       <MovieCard key={movie.imdbId} movie={movie} />
     ))}
-    ;
   </div>
 );
